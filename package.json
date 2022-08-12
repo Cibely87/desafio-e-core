@@ -1,0 +1,19 @@
+{
+  "name": "projeto-e-core",
+  "version": "1.0.0",
+  "description": "Meu desafio para o processo de estágio da E-core",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [
+    "javascrip",
+    "readline",
+    "e-core"
+  ],
+  "author": "Cibely Pereira",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
