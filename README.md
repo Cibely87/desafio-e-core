@@ -11,18 +11,20 @@ A funcionalidade do programa é o armazenamento de dados cadastrais de pessoas. 
 - Inicializando o projeto
 - Instalar as dependências
 
-## 🚀 Install
+## 🚀 Setup do Projeto
 1. Iniciei o projeto criando a pasta ***projeto e-core***
-   - Com o comando `code .` no gitbash iniciei a pasta no VS Code
-   - `npm init -y` para dar inicio e criar um package.json
-   - mudança no script para 'start' 
+   - Depois iniciei o projeto com o `npm init`
+   - Criei um arquivo _main.js_
+   - Editei o _package.json_ para ter um script de **star** 
+   - Criei o **.gitignore** adicionando o _node_modules_
+   - Instalei a principal dependência rodando comando `npm install readline-sync` 
+   - Sincronizei o repositório da minha máquina com o repositório do Github
 
-2. Baixando principal dependência
-   - rodando comando `npm install readline-sync` para baixar a dependência Readline
-
-3. Enviando desafio para GitHub
-   - `git init`para rodar o desafio no github
-   - depois criei um repositório _desafio-e-core_ para salvar todos os commits, mudanças e o resultado final
+## :gear: Instruções para rodar aplicação
+   - Faça um clone do meu repositório
+   - Entre na pasta e execute:
+     - `npm install`
+     - `npm start`
 
 ##  :computer: :books:  Links e material de apoio
 - Aprendi sobre Readline assistindo esse [vídeo](https://www.youtube.com/watch?v=jOcZ6jJOvSQ&t=571s)
