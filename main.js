@@ -22,7 +22,7 @@ const people = []
 
 const getCategory = (age) => {
     if (age >= 0 && age <= 12) {
-        return "Child"
+        return "Children"
     }
     if (age >= 13 && age <= 19) {
         return "Teenager"
@@ -31,7 +31,7 @@ const getCategory = (age) => {
         return "Adult"
     }
 
-    return "Old-aged"
+    return "Elders"
 }
 
 console.log(mainMenu)
